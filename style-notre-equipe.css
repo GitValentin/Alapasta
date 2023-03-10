@@ -1,0 +1,145 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Polices utilisées*/
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Raleway&display=swap'); /*Pour le texte de présentation*/
+
+body {
+  background-color: #F2EFEB;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/*Menu de navigation*/
+
+.menu {
+  background: #888C81;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  box-shadow: 0px 4px 0px #d9c9ba93;
+  top: 0;
+  left: 0;
+  padding: 15px 80px;
+}
+
+.navbar {
+  display: flex;
+  position: relative;
+  list-style: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  font-size: 18px;
+  font-weight: 200;
+  padding: 8px;
+  margin-left: 30px;
+  margin-right: 30px;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  transition: 0.5s all ease;
+}
+
+.bouton:hover {
+  background: #D9C9BA;
+  color: #3D403A;
+}
+
+.reserver {
+  background: #3D403A;
+  border-radius: 15px 30px;
+  transition: 0.5s all ease;
+}
+
+.reserver:hover {
+  background: #0D0D0D;
+  color: white;
+}
+
+/*Paragraphe de présentation*/
+
+.presentation {
+  position: relative;
+  text-align: justify;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.1em;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Raleway', sans-serif;
+}
+
+/*Images portrait de l'équipe*/
+.portrait {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.image {
+  width: 500px;
+}
+
+.prenom {
+  text-align: center;
+  font-size: 1.6em;
+  font-family: 'Dancing Script', cursive;
+}
+
+/*Footer*/
+
+footer {
+  border-top: 1px solid #000;
+  width: 100%;
+  position: absolute;
+  margin-top: 20px;
+}
+
+.contenu-footer {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 20px;
+  padding: 50px 0 100px;
+}
+
+.bloc {
+  width: 25%;
+  margin: 0 30px;
+}
+
+h3 {
+  font-size: 25px;
+  padding-bottom: 20px;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+ul li a:hover {
+  color: #000;
+}
+
+.imgfooter {
+  width: 25px;
+  margin: 5px 5px;
+}
